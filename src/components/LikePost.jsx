@@ -9,8 +9,6 @@ export default function LikePost() {
   }
 
   return (
-    <div>
-      <button onClick={handlePostCount}>Like Post {likePostCounter}</button>
-    </div>
+      <button id='btns-3' onClick={handlePostCount}>Like Post {likePostCounter}</button>
   )
 }

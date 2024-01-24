@@ -1,3 +1,61 @@
-.buttons{
+body{
+  background-color: black;
+}
+
+.title{
+  color: white;
+  text-align: center;
+}
+
+#btns-1{
+  background-color: skyblue;
+  margin-right: 1vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+#btns-2{
+  background-color: skyblue;
+  margin-left: 1vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+#btns-3{
+  background-color: rgb(97, 236, 97);
+  margin-left: 1.2vw;
+  margin-top: 2vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+#btns-4{
+  background-color: rgb(97, 236, 97);
+  margin-left: 1.5vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+#btns-5{
+  background-color: lightyellow;
+  margin-right: 0.5vw;
+  margin-top: 2vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+#btns-6{
+  background-color: lightyellow;
+  margin-left: 1vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+.parent{
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2vw;
+
 }

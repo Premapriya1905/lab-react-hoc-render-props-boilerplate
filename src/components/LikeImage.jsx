@@ -9,8 +9,6 @@ export default function LikeImage() {
   }
 
   return (
-    <div>
-      <button onClick={handleLikeImageCount}>Like Image {likeImageCounter}</button>
-    </div>
+      <button id='btns-4' onClick={handleLikeImageCount}>Like Image {likeImageCounter}</button>
   )
 }
